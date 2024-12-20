@@ -32,26 +32,7 @@ The proposed system employs:
 - **Challenges**: Imbalanced dataset and difficulty in learning feature representations for minority classes.
 - **Future Work**: Explore advanced pooling strategies, integrate both left and right eye images, and improve dataset handling techniques to minimize overfitting.
 
-## Installation and Usage
-### Clone the repository
-```bash
-git clone https://github.com/your-repo/diabetic-retinopathy-detection.git
-```
 
-### Install dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### Run the training script
-```bash
-python train.py
-```
-
-### Use the inference script for predictions
-```bash
-python infer.py --image <path_to_image>
-```
 
 ## Software and Hardware Requirements
 - **Software**: Python 3, TensorFlow, Google Colab (for GPU support).
